@@ -1,0 +1,46 @@
+Title: Demonstrate free hosting with control panel
+
+
+
+
+*Steps for Free Hosting on InfinityFree
+
+1.Visit the Website:
+
+Go to InfinityFree.
+Click on Sign Up Now.
+
+2.Register an Account:
+
+Provide your email and password or use Google to sign up.
+Confirm your email to activate your account.
+
+3.Create a New Website:
+
+After logging in, click Create Account.
+Choose a free subdomain (e.g., yourname.infinityfreeapp.com), or use a custom domain.
+Set up a username and password for FTP access.
+
+4.Access the Control Panel:
+
+After the account is created, click on the website name in your dashboard.
+Click Control Panel to open the cPanel (control panel interface).
+From here, you can manage your website's files, databases, and domain.
+
+5.Upload Website Files:
+
+Go to File Manager inside the control panel.
+Navigate to the htdocs folder (root folder) and upload your website files (HTML, CSS, JavaScript, etc.).
+Alternatively, use the provided FTP credentials to upload files via an FTP client (e.g., FileZilla).
+
+6.Set Up Databases (if required):
+
+In the control panel, click on MySQL Databases.
+Create a new database, note down the database name, username, and password.
+Use this information to connect your website to the database (e.g., for dynamic websites using PHP and MySQL).
+
+7.Visit Your Website:
+
+After uploading your files, visit the site using the free subdomain you chose (e.g., yourname.infinityfreeapp.com).
+
+

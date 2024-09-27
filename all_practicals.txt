@@ -1,0 +1,644 @@
+Title: Download readymade free templates of E-Commerce websites and modify it              
+
+
+
+Step 1: Search on google nice-page
+ Step 2: Click on download now
+ Step 3: download Click on windows app
+Step 4: enter email or signup
+ Step 5: Press Continue
+ Step 6: After open the nice-page, select new page or free readymade templates.
+step 7: Here we can change any information of our choice.
+Step 8: After creating template, we can publish.
+
+
+
+
+
+Title: Create simple and static demo web page for online shopping site.
+
+
+
+Html file:
+<!DOCTYPE html>
+<html>
+<head>
+<title>Online Shopping Site</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+<h1>Online Shopping Site</h1>
+</header>
+<nav>
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="#">Products</a></li>
+<li><a href="#">About Us</a></li>
+<li><a href="#">Contact Us</a></li>
+</ul>
+</nav>
+<main>
+<h2>Featured Products</h2>
+<section class="products">
+<article>
+<img src="product1.jpg" alt="Product 1">
+<h3>Product 1</h3>
+<p>Price: $19.99</p>
+</article>
+<article>
+<img src="product2.jpg" alt="Product 2">
+<h3>Product 2</h3>
+<p>Price: $29.99</p>
+</article>
+<article>
+Page No.
+<img src="product3.jpg" alt="Product 3">
+<h3>Product 3</h3>
+<p>Price: $39.99</p>
+</article>
+</section>
+</main>
+<footer>
+<p>&copy; 2024 Online Shopping Site</p>
+</footer>
+</body>
+</html>
+
+
+
+CSS (in style.css file):
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+}
+header {
+background-color: #333;
+color: #fff;
+padding: 20px;
+text-align: center;
+}
+nav ul {
+list-style: none;
+margin: 0;
+padding: 0;
+display: flex;
+justify-content: space-between;
+}
+nav li {
+margin-right: 20px;
+}
+nav a {
+color: #333;
+text-decoration: none;
+}
+main {
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 20px;
+}
+.products {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+Page No.
+}
+article {
+margin: 20px;
+padding: 20px;
+border: 1px solid #ddd;
+border-radius: 10px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+article img {
+width: 100%;
+height: 150px;
+object-fit: cover;
+border-radius: 10px 10px 0 0;
+}
+footer {
+background-color: #333;
+color: #fff;
+padding: 10px;
+text-align: center;
+clear: both;
+}
+
+
+
+
+
+Title: Create simple and static Feedback Form (web page) for online shopping site.
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Feedback Form</title>
+</head>
+<body>
+<h2>Feedback Form</h2>
+<form>
+<label for="name">Name:</label>
+<input type="text" id="name" name="name"><br><br>
+<label for="email">Email:</label>
+<input type="email" id="email" name="email"><br><br>
+<label for="rating">Rating:</label>
+<select id="rating" name="rating">
+<option value="excellent">Excellent</option>
+<option value="good">Good</option>
+<option value="fair">Fair</option>
+<option value="poor">Poor</option>
+</select><br><br>
+<label for="comments">Comments:</label>
+<textarea id="comments" name="comments"></textarea><br><br>
+<input type="submit" value="Submit">
+</form>
+
+
+Title: Create simple and static demo product catalog web page for online shopping 
+ site
+
+
+
+html file:
+<!DOCTYPE html>
+<html>
+<head>
+<title>Product Catalog</title>
+<link rel="stylesheet" href="first.css">
+</head>
+<body>
+<h1>Product Catalog</h1>
+<div class="categories">
+<h2>Electronics</h2>
+<ul>
+<li>
+<img
+src="https://tse3.mm.bing.net/th?id=OIP.nvdM5sEm4DqG8oZb8nNStQHaHa&pid=Api&P=0&h=180" 
+alt="Smartphone">
+<h3>Smartphone</h3>
+<p>$999</p>
+<p>Description: Latest smartphone with advanced features</p>
+</li>
+<li>
+<img 
+src="https://tse3.mm.bing.net/th?id=OIP.WCCq2nZelTZuFIRbJF7AuAHaEK&pid=Api&P=0&h=180" 
+alt="Laptop">
+<h3>Laptop</h3>
+<p>$1,299</p>
+<p>Description: High-performance laptop for work and play</p>
+</li>
+<li>
+<img 
+src="http://www.bhphotovideo.com/images/images2500x2500/samsung_sm_w700nzkaxar_12_0_tabpro_s_tablet
+_1222108.jpg" alt="Tablet">
+<h3>Tablet</h3>
+<p>$499</p>
+<p>Description: Portable tablet for entertainment and productivity</p>
+</li>
+</ul>
+</div>
+<div class="categories">
+<h2>Fashion</h2>
+<ul>
+<li>
+Page No.
+<img 
+src="https://tse2.mm.bing.net/th?id=OIP.T5ssTzuJLHDMrtc9U39mywHaJQ&pid=Api&P=0&h=180" alt="TShirt">
+<h3>T-Shirt</h3>
+<p>$19.99</p>
+<p>Description: Comfortable and stylish t-shirt for men</p>
+</li>
+<li>
+<img 
+src="https://tse2.mm.bing.net/th?id=OIP.YjEEUjhS5TZIMPf5_LCdIwHaKl&pid=Api&P=0&h=180" 
+alt="Dress">
+<h3>Dress</h3>
+<p>$49.99</p>
+<p>Description: Elegant and fashionable dress for women</p>
+</li>
+<li>
+<img 
+src="https://tse1.mm.bing.net/th?id=OIP.YguOkIP2xIjpoReX_q0R4gHaHa&pid=Api&P=0&h=180" 
+alt="Shoes">
+<h3>Shoes</h3>
+<p>$79.99</p>
+<p>Description: Stylish and comfortable shoes for men and women</p>
+</li>
+</ul>
+</div>
+<div class="categories">
+<h2>Home Appliances</h2>
+<ul>
+<li>
+<img src="https://images-na.ssl-imagesamazon.com/images/G/01/th/aplus/samsung/samsung-B00COKDO0M-1-l.jpg" alt="Refrigerator">
+<h3>Refrigerator</h3>
+<p>$1,099</p>
+<p>Description: Energy-efficient refrigerator for your kitchen</p>
+</li>
+<li>
+<img src="https://www.lg.com/in/images/washingmachines/md07540887/gallery/FHM1408BDL-Washing-Machines-Right-View-MZ-04-v1.jpg" alt="Washing 
+Machine">
+<h3>Washing Machine</h3>
+<p>$899</p>
+<p>Description: High-performance washing machine for your laundry needs</p>
+</li>
+<li>
+<img 
+src="https://i.pinimg.com/originals/88/8f/00/888f003bfbfe07cb8fe85b0a7365a185.jpg" alt="Air Conditioner">
+<h3>Air Conditioner</h3>
+<p>$1,499</p>
+<p>Description: Powerful and energy-efficient air conditioner for your 
+home</p>
+</li>
+Page No.
+</ul>
+</div>
+<button>Add to Cart</button>
+<button>Checkout</button>
+</body>
+</html>
+css file:
+body {
+font
+-family: Arial, sans
+-serif;
+margin: 20px;
+}
+.categories {
+margin
+-bottom: 20px;
+}
+.categories h2 {
+margin
+-top: 0;
+}
+ul {
+list
+-style: none;
+padding: 0;
+}
+li {
+margin
+-bottom: 20px;
+}
+img {
+width: 100px;
+height: 100px;
+margin
+-right: 20px;
+}
+h3 {
+margin
+-top: 0;
+}
+button {
+background
+-color: #4CAF50;
+color: #fff;
+padding: 10px 20px;
+border: none;
+border
+-radius: 5px;
+cursor: pointer;
+}
+button:hover {
+background
+-color: #3e8e41;
+}
+
+
+
+Title: Demonstrate domain registration.
+
+Step 1:Go to Google Chrome
+Step 2: Search for Domain name registration 
+Step 3: you will see various websites, choose one that you prefer like Godaddy
+Step 4:Search name that you want to register as a domain
+Step 5: see if it is available or not 
+Step 6: you also try the name with .com
+Step 7: Click on Add to Cart of the name you want
+Step 8: you can see various extension
+Step 9:you can select any extension like .in
+Step 10:Click on checkout now
+Step 11:If you have a problem, you can contact customer service
+Step 12: You can choose the duration of the extension
+Step 13: You can remove the extensions
+Step 14: You can choose the duration of the domain name
+Step 15: If you already have an account sign in, if not then go to Create account
+Step 16: Type the email of the domain you want and you will see by default, the 
+username will be referred to the email, you can customize the username
+Step 17: Type the password and pin that match the conditions
+Step 18:Click on Create account
+Step 19: Fill billing information
+Step 20: If you have a company, type its name and GSTno
+Step 21: Fill your contact number
+Step 22: Click on save
+Step 23: You will see the payment process you choose the mode of payment like 
+a credit card, net banking, etc.
+Step 24: Click on complete purchase
+Step 25: It will show a filling page, check your information
+Step 26: Click on continue and on submit and there you have got your domain 
+name
+Step 27: Go to the Godaddy page, you will see your domain name
+Step 28: Copy the name and paste it into the address bar
+
+Step 29: You will be redirected to the GoDaddy page because your site has not 
+been connected to hosting, only the domain is registered
+
+
+
+
+
+
+
+Title: Search web hosting plans with configuration
+
+
+HTML (index.html):
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>E-commerce Website</title>
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <header>
+ <nav>
+ <ul>
+ <li><a href="#">Home</a></li>
+ <li><a href="#">Products</a></li>
+ <li><a href="#">Cart</a></li>
+ </ul>
+ </nav>
+ </header>
+ <main>
+Page No.
+ <section class="products">
+ <h2>Products</h2>
+ <div class="product">
+ <img src="product1.jpg" alt="Product 1">
+ <h3>Product 1</h3>
+ <p>Price: $19.99</p>
+ <button>Add to Cart</button>
+ </div>
+ <div class="product">
+ <img src="product2.jpg" alt="Product 2">
+ <h3>Product 2</h3>
+ <p>Price: $29.99</p>
+ <button>Add to Cart</button>
+ </div>
+ </section>
+ </main>
+ <script src="script.js"></script>
+</body>
+</html>
+CSS (style.css):
+body {
+ font-family: Arial, sans-serif;
+ margin: 0;
+ padding: 0;
+}
+header {
+ background-color: #333;
+ color: #fff;
+ padding: 1em;
+ text-align: center;
+}
+nav ul {
+ list-style: none;
+ margin: 0;
+ padding: 0;
+Page No.
+ display: flex;
+ justify
+-content: space
+-between;
+}
+nav li {
+ margin
+-right: 20px;
+}
+nav a {
+ color: #fff;
+ text
+-decoration: none;
+}
+.products {
+ display: flex;
+ flex
+-wrap: wrap;
+ justify
+-content: center;
+}
+.product {
+ margin: 20px;
+ padding: 20px;
+ border: 1px solid #ddd;
+ border
+-radius: 10px;
+ box
+-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.product img {
+ width: 100%;
+ height: 150px;
+ object
+-fit: cover;
+ border
+-radius: 10px 10px 0 0;
+}
+.product h3 {
+ font
+-weight: bold;
+ margin
+-top: 0;
+}
+.product p {
+Page No.
+ font-size: 18px;
+ color: #666;
+}
+.product button {
+ background-color: #333;
+ color: #fff;
+ border: none;
+ padding: 10px 20px;
+ font-size: 18px;
+ cursor: pointer;
+}
+.product button:hover {
+ background-color: #555;
+}
+JavaScript (script.js):
+// Add event listeners to add to cart buttons
+document.querySelectorAll('.product button').forEach(button => {
+ button.addEventListener('click', () => {
+ // Add product to cart logic here
+ console.log('Product added to cart!');
+ });
+});
+
+
+
+
+
+Title: Demonstrate free hosting with control panel
+
+
+
+
+*Steps for Free Hosting on InfinityFree
+
+1.Visit the Website:
+
+Go to InfinityFree.
+Click on Sign Up Now.
+
+2.Register an Account:
+
+Provide your email and password or use Google to sign up.
+Confirm your email to activate your account.
+
+3.Create a New Website:
+
+After logging in, click Create Account.
+Choose a free subdomain (e.g., yourname.infinityfreeapp.com), or use a custom domain.
+Set up a username and password for FTP access.
+
+4.Access the Control Panel:
+
+After the account is created, click on the website name in your dashboard.
+Click Control Panel to open the cPanel (control panel interface).
+From here, you can manage your website's files, databases, and domain.
+
+5.Upload Website Files:
+
+Go to File Manager inside the control panel.
+Navigate to the htdocs folder (root folder) and upload your website files (HTML, CSS, JavaScript, etc.).
+Alternatively, use the provided FTP credentials to upload files via an FTP client (e.g., FileZilla).
+
+6.Set Up Databases (if required):
+
+In the control panel, click on MySQL Databases.
+Create a new database, note down the database name, username, and password.
+Use this information to connect your website to the database (e.g., for dynamic websites using PHP and MySQL).
+
+7.Visit Your Website:
+
+After uploading your files, visit the site using the free subdomain you chose (e.g., yourname.infinityfreeapp.com).
+
+
+
+
+
+
+Title: Upload any demo video on YouTube
+
+
+Step 1 : Search on google youtube.com , click on 1st website and sign in your account after that we can see 
+youtube is open
+Step 2: Go to your profile,select youtube studio
+Step3: Click on upload videos that we can download on google
+Step 4: Click on select file
+Step 6 :click on next
+Step 7: Save the video and publish it privately, now the video is uploaded
+
+
+
+
+Title: Create and develop your blog
+
+Step 1: Search on google – Blogger.com
+Step 2 : After that ,sign in and press next
+step 2: We can see the blogger page open ,next click on new post
+Step 4: The new post is open
+Step 5: Here we create our blog and give it title
+Step 6: Click on publish and select confirm
+ 
+Step 7: Here we can see our blog is published.
+
+
+
+
+
+Title: Demonstrate E-Mail Functions
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Email Form</title>
+ <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+ <div class="container">
+ <h1>Email Form</h1>
+ <form id="emailForm" onsubmit="return validateEmail()">
+ <label for="email">Enter your email:</label>
+ <input type="email" id="email" name="email" 
+placeholder="example@domain.com" required>
+ <button type="submit">Submit</button>
+ <p id="message"></p>
+ </form>
+ </div>
+ <script src="script.js"></script>
+</body>
+</html>
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+body {
+ font-family: Arial, sans-serif;
+ background-color: #f0f0f0;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+Page No.
+ height: 100vh;
+}
+.container {
+ background-color: #fff;
+ padding: 20px;
+ border-radius: 8px;
+ box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+ text-align: center;
+ width: 300px;
+}
+function validateEmail() {
+ const emailField = document.getElementById("email");
+ const message = document.getElementById("message");
+ const email = emailField.value;s
+ const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+ if (emailPattern.test(email)) {
+ message.textContent = "Valid email address!";
+ message.style.color = "green";
+ return true; // Form will be submitted
+ } else {
+ message.textContent = "Invalid email address. Please try again.";
+ message.style.color = "red";
+ return false; // Prevent form submission
+ }
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,69 @@
+Title: Demonstrate E-Mail Functions
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Email Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      height: 100vh;
+    }
+    .container {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      width: 300px;
+    }
+  </style>
+  <body>
+    <div class="container">
+      <h1>Email Form</h1>
+      <form id="emailForm" onsubmit="return validateEmail()">
+        <label for="email">Enter your email:</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="example@domain.com"
+          required
+        />
+        <button type="submit">Submit</button>
+        <p id="message"></p>
+      </form>
+    </div>
+    <script src="script.js">
+          function validateEmail() {
+       const emailField = document.getElementById("email");
+       const message = document.getElementById("message");
+       const email = emailField.value;s
+       const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+       if (emailPattern.test(email)) {
+       message.textContent = "Valid email address!";
+       message.style.color = "green";
+       return true; // Form will be submitted
+       } else {
+       message.textContent = "Invalid email address. Please try again.";
+       message.style.color = "red";
+       return false; // Prevent form submission
+       }
+      }
+    </script>
+  </body>
+</html>
